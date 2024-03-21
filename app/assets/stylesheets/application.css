@@ -14,7 +14,7 @@
  *= require_self
  */
 
-notice{
+#notice{
   color: green;
 }
 
@@ -37,4 +37,27 @@ td{
   padding-bottom: 7px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+p,ul{
+  margin: 33px;
+}
+
+#errors_explanation h2{
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+
+#errors_explanation{
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  
 }
